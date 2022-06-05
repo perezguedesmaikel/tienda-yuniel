@@ -20,7 +20,7 @@ import { AiFillQuestionCircle} from "react-icons/ai";
 function App() {
   return (
     <div>
-        {/*Encabezado!!!============================================================*/}
+        {/*Encabezado!!!!!!!!!!============================================================*/}
         <header className="container-fluid bg-success d-flex justify-content-center">
             <p className="text-light mb-0 p-2 fs-6">Contactanos 53-54157794</p>
         </header>
