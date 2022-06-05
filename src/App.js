@@ -1,4 +1,4 @@
-import React from "react";
+import React,{Fragment} from "react";
 import './App.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import InfoInicio from "./components/InfoInicio";
@@ -9,10 +9,13 @@ import BotonesPrincipales from "./components/BotonesPrincipales";
 import H1principal from "./components/H1Principal";
 import SliderImagen from "./components/SliderImagen";
 import Encabezado from "./components/Encabezado";
+import { BrowserRouter,Routes,
+    Route,NavLink } from "react-router-dom";
 function App() {
   return (
+      <BrowserRouter>
     <div>
-        {/*Encabezado!!!!!!!!!Probando git!============================================================*/}
+        {/*Encabezado!!!!!!!!!============================================================*/}
        <Encabezado/>
         {/*slider imagen!!!============================================================*/}
         <SliderImagen/>
@@ -21,15 +24,18 @@ function App() {
                  id="intro">
            <BotonesPrincipales/>
             <H1principal/>
-            <InfoInicio/>
+            {/*Area Cambiable==========================================================================================*/}
+            <Routes>
+                <Route path="/" element={<InfoInicio/>}/>
+            </Routes>
         </section>
-        {/*Explicaciones al Usuario=================================================================*/}
-        <ExplicacionesUsuario/>
-        {/*Acerca de nosotros=================================================================*/}
-        <AcercaNosotros/>
-        {/*Sección contactos=================================================================*/}
+           <Routes>
+            <Route path="/" element={<Fragment><ExplicacionesUsuario/><AcercaNosotros/></Fragment>}/>
+           </Routes>
+           {/*Area Cambiable==========================================================================================*/}
            <Footer/>
     </div>
+      </BrowserRouter>
   );
 }
 
