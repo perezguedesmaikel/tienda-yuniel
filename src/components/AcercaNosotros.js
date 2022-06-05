@@ -4,7 +4,7 @@ function AcercaNosotros() {
     return(
         <section>
             <div className="container w-50 m-auto text-center" id="equipo">
-                <h1 className="mb-5 fs-2">Sesión donde puedes visualizar <span className="text-primary">los choferes que ya laboran en la comunidad</span>.
+                <h1 className="mb-5 fs-2">Sesión donde puedes visualizar <span className="text-success">los choferes que ya laboran en la comunidad</span>.
                 </h1>
                 <p className="fs-4 ">Siempre buscamos las personas adecuadas para que trabajen con nosotros. Si te
                     sientes listo para este reto, te esperamos para que te unas a nosotros.</p>

@@ -10,16 +10,18 @@ import H1principal from "./components/H1Principal";
 import SliderImagen from "./components/SliderImagen";
 import Encabezado from "./components/Encabezado";
 import { BrowserRouter,Routes,
-    Route,NavLink } from "react-router-dom";
+    Route } from "react-router-dom";
+import Transporte from "./components/Transporte";
+import Choferes from "./components/Choferes";
+import Suscribirse from "./components/Suscribirse";
+import Informacion from "./components/Informacion";
+import Ayuda from "./components/Ayuda";
 function App() {
   return (
       <BrowserRouter>
     <div>
-        {/*Encabezado!!!!!!!!!============================================================*/}
        <Encabezado/>
-        {/*slider imagen!!!============================================================*/}
         <SliderImagen/>
-        {/*slider introoo=================================================================*/}
         <section className="d-flex flex-column justify-content-center align-items-center pt-5  text-center w-50 m-auto"
                  id="intro">
            <BotonesPrincipales/>
@@ -27,6 +29,11 @@ function App() {
             {/*Area Cambiable==========================================================================================*/}
             <Routes>
                 <Route path="/" element={<InfoInicio/>}/>
+                <Route path="transporte" element={<Transporte/>}/>
+                <Route path="choferes" element={<Choferes/>}/>
+                <Route path="suscribirse" element={<Suscribirse/>}/>
+                <Route path="informacion" element={<Informacion/>}/>
+                <Route path="ayuda" element={<Ayuda/>}/>
             </Routes>
         </section>
            <Routes>

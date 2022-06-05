@@ -122,7 +122,9 @@ body {
 
 
 /*=========================FOOTER================================*/
-
+.footerverde{
+    background-color:rgb(25, 135, 84)!important;
+}
 footer {
     background: #1b2a4e;
     min-height: 100px;;
