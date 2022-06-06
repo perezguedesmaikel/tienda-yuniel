@@ -29,6 +29,10 @@ body {
     color:#3f3f3f;
 
 }
+/*===================Encabezado==========================*/
+.suscribetebtn{
+    color: white!important;
+}
 /*===================SLIDER DE IMAGENES==========================*/
 
 .carousel-inner {
@@ -88,6 +92,9 @@ body {
 #numeros-local p{
     margin:0;
 }
+#intro{
+    padding: 0!important;
+}
 
 /*=========================CONTACTOS BACKGROUND================================*/
 
@@ -142,7 +149,7 @@ footer p{
 /*=========================MEDIA QUERIES PANTALLA ANCHA================================*/
 
 @media (max-width:1200px){
-    #intro, #equipo {
+    #intro,#intro2 #equipo {
         width:90% !important;
         margin:auto;
     }
@@ -163,7 +170,7 @@ footer p{
 
 @media (max-width:768px) {
 
-    #intro, #equipo{
+    #intro,#intro2, #equipo{
         width:90% !important;
         margin:auto;
     }

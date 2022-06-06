@@ -1,5 +1,6 @@
 import React,{Fragment} from "react";
 import {AiFillCar} from "react-icons/ai";
+import { Link } from "react-router-dom";
 function Encabezado() {
     return(
         <Fragment>
@@ -11,9 +12,9 @@ function Encabezado() {
             <a className="navbar-brand" href="#">
                 <span className="fs-5 textoverde fw-bold">UBER-CUBA</span>
             </a>
-            <a className="navbar-brand" href="#">
+            <Link to={"/transporte"} className="navbar-brand" href="#">
                 <span className="fs-5   btn btn-success">Buscar Transporte<AiFillCar className={'iconoup'}/></span>
-            </a>
+            </Link>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -24,23 +25,23 @@ function Encabezado() {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                     <li className="nav-item">
-                        <a className="nav-link" aria-current="page" href="#">Inicio</a>
+                        <Link to={"/"} className="nav-link" aria-current="page" href="#">Inicio</Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Choferes</a>
+                        <Link to={"/choferes"} className="nav-link" href="#">Choferes</Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Información</a>
+                        <Link to={"informacion"} className="nav-link" href="#">Información</Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Ayuda</a>
+                        <Link to={"ayuda"} className="nav-link" href="#">Ayuda</Link>
                     </li>
                 </ul>
                 <form className="d-flex">
                     <input className="form-control" type="email" placeholder="Correo Electronico"
                            aria-label="Suscribete"/>
-                    <button className="btn btn-success" type="button">Suscribete
-                    </button>
+                    <Link to={"/suscribirse"} className="btn btn-success suscribetebtn" type="button">Suscribete
+                    </Link>
                 </form>
             </div>
         </div>
