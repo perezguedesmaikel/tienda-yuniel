@@ -19,7 +19,14 @@ function BotonesPrincipales() {
             <Link to="/transporte" type="button" className="btn btn-success btn-lg"><span className={'botonresp'}>Transporte</span> <AiFillCar/></Link>
             <Link to={"/suscribirse"} type="button" className="btn btn-success btn-lg"><span className={'botonresp'}>Suscribirse</span> <AiFillEdit/></Link>
             <Link to={"/choferes"} type="button" className="btn btn-success btn-lg"><span className={'botonresp'}>Choferes</span> <AiFillSmile/></Link>
-            <Link to={"/informacion"} type="button" className="btn btn-success btn-lg"><span className={'botonresp'}>Información</span> <AiFillInfoCircle/></Link>
+            <Link to={"/"} type="button"  id="dropdownMenuButton2" className="btn btn-success btn-lg dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                <span className={'botonresp'}>Información</span><AiFillInfoCircle/></Link>
+            <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                <li><Link to={"/"} className="dropdown-item" href="#">Desarrollo</Link></li>
+                <li><Link to={"/transporte"} className="dropdown-item" href="#">Objetivos</Link></li>
+                <li><Link to={"/suscribirse"} className="dropdown-item" href="#">Comunicaciones</Link></li>
+                <li><Link to={"/choferes"} className="dropdown-item" href="#">Aspectos Técnicos </Link></li>
+            </ul>
             <Link to={"/ayuda"} type="button" className="btn btn-success btn-lg"><span className={'botonresp'}>Ayuda</span> <AiFillQuestionCircle/></Link>
         </div>
     )

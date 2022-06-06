@@ -39,7 +39,7 @@ function ExplicacionesUsuario() {
 
                     <div>
                         <h3 className="fs-5 mt-4 px-4 pb-1">Comunicaciones</h3>
-                        <p className="px-4">En esta sección se explica el funcionamiento de la comunicación entre el cliente y el chofer...</p>
+                        <p className="px-4">Nuestro servicio principal consiste en desarrollar tecnología que conecte a conductores y pasajeros en función de la demanda.</p>
                     </div>
                 </div>
 
