@@ -40,7 +40,7 @@ function Encabezado() {
                 <form className="d-flex">
                     <input className="form-control" type="email" placeholder="Correo Electronico"
                            aria-label="Suscribete"/>
-                    <Link to={"/suscribirse"} className="btn btn-success suscribetebtn" type="button">Suscribete
+                    <Link to={"/suscribirse"} className="btn btn-success suscribetebtn" type="button">Registrate
                     </Link>
                 </form>
             </div>

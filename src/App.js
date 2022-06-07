@@ -6,7 +6,7 @@ import AcercaNosotros from "./components/AcercaNosotros";
 import Footer from "./components/Footer";
 import SliderImagen from "./components/SliderImagen";
 import Encabezado from "./components/Encabezado";
-import { BrowserRouter,Routes,
+import { Routes,
     Route } from "react-router-dom";
 import VariosComponentes from "./components/VariosComponentes";
 import BotonesPrincipales from "./components/BotonesPrincipales";
@@ -18,7 +18,7 @@ import Ayuda from "./components/internos/Ayuda";
 import H1principal from "./components/H1Principal";
 function App() {
   return (
-      <BrowserRouter>
+
     <div>
        <Encabezado/>
         <SliderImagen/>
@@ -34,12 +34,11 @@ function App() {
                <Route path="/choferes" element={<Choferes/>}/>
                <Route path="/informacion" element={<Informacion/>}/>
                <Route path="/ayuda" element={<Ayuda/>}/>
-
            </Routes>
            {/*Area Cambiable==========================================================================================*/}
            <Footer/>
     </div>
-      </BrowserRouter>
+
   );
 }
 
