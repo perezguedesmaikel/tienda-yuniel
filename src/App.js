@@ -1,4 +1,4 @@
-import React,{Fragment} from "react";
+import React,{Fragment,useState} from "react";
 import './App.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import ExplicacionesUsuario from "./components/ExplicacionesUsuario";
@@ -16,7 +16,9 @@ import Choferes from "./components/internos/Choferes";
 import Informacion from "./components/internos/Informacion";
 import Ayuda from "./components/internos/Ayuda";
 import H1principal from "./components/H1Principal";
+import Login from "./components/Login";
 function App() {
+    const [logueado,setLogueado]=useState(true);
   return (
 
     <div>
@@ -29,11 +31,14 @@ function App() {
         {/*Area Cambiable==========================================================================================*/}
            <Routes>
             <Route path="/" element={<Fragment><VariosComponentes/><ExplicacionesUsuario/><AcercaNosotros/></Fragment>}/>
-               <Route path="/transporte" element={<Transporte/>}/>
+               {logueado?<Route path="/transporte" element={<Transporte/>}/>: <Route path="/transporte" element={<Login/>}/>}
                <Route path="/suscribirse" element={<Suscribirse/>}/>
                <Route path="/choferes" element={<Choferes/>}/>
                <Route path="/informacion" element={<Informacion/>}/>
                <Route path="/ayuda" element={<Ayuda/>}/>
+               <Route path="/login" element={<Login/>}/>
+               <Route path='/*' element={<h1>Error página no encontrada, pusiste mal la dirección
+                   o no te has logueado aún</h1>}/>
            </Routes>
            {/*Area Cambiable==========================================================================================*/}
            <Footer/>
