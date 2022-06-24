@@ -33,11 +33,22 @@ body {
 }
 /*===================color fond0==========================*/
 .fondo{
-    background-color: #5a01a7;
+    background-color: #7b1fa2!important;
 }
-.textoc{
-    color: #5a01a7;
+#textoc{
+    color:#7b1fa2;
 }
+#popular{
+    background-color: #7b1fa2;
+}
+#registrate{
+    background-color: #7b1fa2;
+}
+.violeta{
+    color:#7b1fa2;
+}
+
+
 
 
 /*===================SECCION NUESTRO EQUIPO IMAGEN==========================*/
@@ -131,7 +142,7 @@ body {
 
 /*=========================FOOTER================================*/
 .footerverde{
-    background-color:rgb(25, 135, 84)!important;
+    background-color:#7b1fa2!important;
 }
 footer {
     background: #1b2a4e;
@@ -172,6 +183,7 @@ footer p{
 @media (max-width:768px) {
 
     #intro,#intro2, #equipo{
+        padding: 0!important;
         width:90% !important;
         margin:auto;
     }
@@ -208,6 +220,18 @@ footer p{
 /*=========================MEDIA QUERIES PANTALLA EXTRA-SM================================*/
 
 @media (max-width: 576px) {
+    #margenp{
+        margin: 0!important;
+    }
+    #margenp1{
+        margin: 0!important;
+    }
+    #margenp2{
+        margin: 0!important;
+    }
+    #margenp3{
+        margin: 0!important;
+    }
     #servicios-fila-2 {
         width:100% !important;
     }
