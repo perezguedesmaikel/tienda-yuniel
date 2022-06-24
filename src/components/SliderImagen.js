@@ -1,7 +1,7 @@
 import React from "react";
-import image1 from "../images/uber cuba.jpg";
-import image2 from "../images/slide1 copia.jpg";
-import image3 from "../images/carruselcarreton copia.jpg";
+import image1 from "../images/slider3.jpg";
+import image2 from "../images/slider2.jpg";
+import image3 from "../images/slide1.jpg";
 function SliderImagen() {
     return(
         <div id="carousel" className="carousel slide" data-bs-ride="carousel">

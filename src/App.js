@@ -22,6 +22,7 @@ function App() {
   return (
 
     <div>
+
        <Encabezado/>
         <SliderImagen/>
         <section className="d-flex flex-column justify-content-center align-items-center pt-5  text-center w-50 m-auto" id={'intro2'}>

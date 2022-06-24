@@ -31,11 +31,14 @@ body {
 .suscribetebtn{
     color: white!important;
 }
-/*===================SLIDER DE IMAGENES==========================*/
-
-.carousel-inner {
-    max-height:39rem !important;
+/*===================color fond0==========================*/
+.fondo{
+    background-color: #5a01a7;
 }
+.textoc{
+    color: #5a01a7;
+}
+
 
 /*===================SECCION NUESTRO EQUIPO IMAGEN==========================*/
 
