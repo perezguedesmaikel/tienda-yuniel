@@ -2,9 +2,9 @@ import React from "react";
 function InfoInicio() {
     return(
         <p className="p-3  fs-4">
-            <span className="violeta">MabrySS</span> Es la agencia donde te ayudamos a que encuentres la ropa que necesitas
-            para la ocasión, tenemos visuteria y accesorios de primer nivel, ofrecemos servisios de encargo del exterior
-            así como de hacerselo llegar a su propia puerta.
+            <span className="violeta">MabrySS</span> es una tienda minorista online con el compromiso de hacer
+            que la belleza de la moda sea accesible también a los cubanos dentro de la isla, estamos conectados con diversos
+            productores y agencias de envios para tener precios competitivos y llevar la mejor oferta a nuestros clientes.
         </p>
     )
 

@@ -18,6 +18,18 @@ body {
 #centrado{
     justify-content: center!important;
 }
+.cursor{
+    cursor: pointer;
+}
+.anclaredes:active{
+    color: white!important;
+}
+.anclaredes:hover{
+    color: white!important;
+}
+.anclaredes{
+    color: white!important;
+}
 /*===================MENU==========================*/
 
 #menu a, button{

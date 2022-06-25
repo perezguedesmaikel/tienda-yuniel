@@ -32,8 +32,8 @@ function App() {
         </section>
         {/*Area Cambiable==========================================================================================*/}
            <Routes>
-            <Route path="/" element={<Fragment><VariosComponentes/><ExplicacionesUsuario/><AcercaNosotros/></Fragment>}/>
-               {logueado?<Route path="/transporte" element={<Ropa/>}/>: <Route path="/transporte" element={<Login/>}/>}
+            <Route path="/inicio" element={<Fragment><VariosComponentes/><ExplicacionesUsuario/><AcercaNosotros/></Fragment>}/>
+               {logueado?<Route path="/" element={<Ropa/>}/>: <Route path="/" element={<Login/>}/>}
                <Route path="/suscribirse" element={<Suscribirse/>}/>
                <Route path="/choferes" element={<Choferes/>}/>
                <Route path="/informacion" element={<Informacion/>}/>

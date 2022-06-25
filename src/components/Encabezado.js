@@ -15,7 +15,7 @@ function Encabezado() {
             <a className="navbar-brand" href="#">
                 <span className="fs-1  fw-bold " id={'textoc'}>MabrySS</span>
             </a>
-            <Link to={"/transporte"} className="navbar-brand" href="#">
+            <Link to={"/"} className="navbar-brand" href="#">
                 <span className="fs-5   btn btn-secondary" id={'popular'}><span className={'ocultocel'}>Popular</span>
                     <AiFillShopping className={'iconoup'}/></span>
             </Link>
