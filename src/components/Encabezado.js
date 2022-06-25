@@ -16,7 +16,8 @@ function Encabezado() {
                 <span className="fs-1  fw-bold " id={'textoc'}>MabrySS</span>
             </a>
             <Link to={"/transporte"} className="navbar-brand" href="#">
-                <span className="fs-5   btn btn-secondary" id={'popular'}>Popular<AiFillShopping className={'iconoup'}/></span>
+                <span className="fs-5   btn btn-secondary" id={'popular'}><span className={'ocultocel'}>Popular</span>
+                    <AiFillShopping className={'iconoup'}/></span>
             </Link>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"

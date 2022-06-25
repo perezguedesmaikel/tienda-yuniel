@@ -15,6 +15,9 @@ body {
     width: 30px;
     height: 30px;
 }
+#centrado{
+    justify-content: center!important;
+}
 /*===================MENU==========================*/
 
 #menu a, button{
@@ -27,6 +30,7 @@ body {
     color:#3f3f3f;
 
 }
+
 /*===================Encabezado==========================*/
 .suscribetebtn{
     color: white!important;
@@ -220,6 +224,16 @@ footer p{
 /*=========================MEDIA QUERIES PANTALLA EXTRA-SM================================*/
 
 @media (max-width: 576px) {
+    .aualto{
+        height: 200px;
+    }
+    #centrado{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+
+    }
     #margenp{
         margin: 0!important;
     }
@@ -243,5 +257,8 @@ footer p{
         flex-wrap:wrap !important;
         justify-content: center !important;
         text-align: center;
+    }
+    .ocultocel{
+        display: none;
     }
 }

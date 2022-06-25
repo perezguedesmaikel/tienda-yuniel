@@ -10,7 +10,7 @@ import { Routes,
     Route } from "react-router-dom";
 import VariosComponentes from "./components/VariosComponentes";
 import BotonesPrincipales from "./components/BotonesPrincipales";
-import Transporte from "./components/internos/Transporte";
+import Ropa from "./components/internos/Ropa";
 import Suscribirse from "./components/internos/Suscribirse";
 import Choferes from "./components/internos/Choferes";
 import Informacion from "./components/internos/Informacion";
@@ -33,7 +33,7 @@ function App() {
         {/*Area Cambiable==========================================================================================*/}
            <Routes>
             <Route path="/" element={<Fragment><VariosComponentes/><ExplicacionesUsuario/><AcercaNosotros/></Fragment>}/>
-               {logueado?<Route path="/transporte" element={<Transporte/>}/>: <Route path="/transporte" element={<Login/>}/>}
+               {logueado?<Route path="/transporte" element={<Ropa/>}/>: <Route path="/transporte" element={<Login/>}/>}
                <Route path="/suscribirse" element={<Suscribirse/>}/>
                <Route path="/choferes" element={<Choferes/>}/>
                <Route path="/informacion" element={<Informacion/>}/>
