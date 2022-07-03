@@ -16,10 +16,15 @@ import cartera from '../../images/carteranegra.webp'
 
 
 
-export default function RecipeReviewCard() {
+export default function RecipeReviewCard(props) {
+    const {nombre}=props.item;
+    const {archivoName}=props.item;
+    const {descripcion}=props.item;
+    const {imagen}=props.item;
+    const {presio}=props.item;
 
     return (
-        <Card sx={{ maxWidth: 345 }} className='m-1'>
+        <Card sx={{ minWidth: 345,height:445 }} className='m-1'>
             <CardHeader
                 avatar={
                     <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
@@ -31,18 +36,19 @@ export default function RecipeReviewCard() {
                         <MoreVertIcon />
                     </IconButton>
                 }
-                title="Cartera negra"
+                title={nombre}
                 subheader="Junio 24, 2022"
             />
             <CardMedia
                 component="img"
-                height="194"
-                image={cartera}
+                height="250"
+                image={imagen}
                 alt="Cartera"
             />
             <CardContent>
-                <Typography variant="body2" color="text.secondary">
-                    Cartera negra hecha de piel de cocodrilo, calidad 7 estrellas, importada de Australia
+                <Typography variant="body2" color="text.secondary" className='centrado'>
+                    {presio}<br/>
+                    {descripcion}
                 </Typography>
             </CardContent>
             <CardActions disableSpacing>

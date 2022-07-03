@@ -39,7 +39,7 @@ function App() {
                <Route path="/informacion" element={<Informacion/>}/>
                <Route path="/ayuda" element={<Ayuda/>}/>
                <Route path="/login" element={<Login/>}/>
-               <Route path='/*' element={<h1>Error página no encontrada, pusiste mal la dirección
+               <Route path='*' element={<h1>Error página no encontrada, pusiste mal la dirección
                    o no te has logueado aún</h1>}/>
            </Routes>
            {/*Area Cambiable==========================================================================================*/}

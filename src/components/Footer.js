@@ -21,7 +21,6 @@ function Footer() {
             <a href="tel:+5358335533" className={'anclaredes'}><BsPhoneVibrate className='cursor'/></a>
             <a href="https://t.me/yuniel123" target='_blank' className={'anclaredes'}><FaTelegramPlane className='cursor'/></a>
         <a href="https://wa.me/5358335533" target='_blank' className={'anclaredes'} ><FaWhatsappSquare className='cursor'/></a> </div>
-
         <p className="fs-5 px-3  pt-3">M@ikelPro &copy; Todos Los Derechos Reservados 2022</p>
 
     </footer>

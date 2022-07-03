@@ -6,6 +6,7 @@ import {
     AiFillShopping,
     AiFillSmile
 } from "react-icons/ai";
+import { FcDataConfiguration } from "react-icons/fc";
 import { Link } from "react-router-dom";
 function BotonesPrincipales() {
     return(
@@ -19,6 +20,7 @@ function BotonesPrincipales() {
                     <li><Link to={"/suscribirse"} className="dropdown-item" href="#">Suscribirse <AiFillEdit/></Link></li>
                     <li><Link to={"/choferes"} className="dropdown-item" href="#">Ropa <AiFillSmile/></Link></li>
                     <li><Link to={"/informacion"} className="dropdown-item" href="#">Información <AiFillInfoCircle/></Link></li>
+                    <li><a href={"https://mabriss-panel.firebaseapp.com"} target='_blank' className="dropdown-item">Administrar <FcDataConfiguration/> </a></li>
                 </ul>
             </div>
             <Link to="/" type="button" className="btn btn-secondary fondo btn-lg"><span className={'botonresp'}>Popular</span> <AiFillShopping/></Link>
