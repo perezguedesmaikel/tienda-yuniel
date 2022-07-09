@@ -1,7 +1,12 @@
 import React from "react";
+import ExplicacionesUsuario from "../ExplicacionesUsuario";
+import InfoInicio from "../InfoInicio";
 function Ayuda() {
     return(
-        <h1>Ayuda</h1>
+        <>
+        <InfoInicio/>
+       <ExplicacionesUsuario/>
+            </>
     )
 }
 export default Ayuda;

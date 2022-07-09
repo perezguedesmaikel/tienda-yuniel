@@ -5,9 +5,11 @@ body {
     overflow-x: hidden;
 }
 /*===================mios==========================*/
+
 .verde{
     background-color: #3db36b;
 }
+
 .textoverde{
     color: #3db36b;;
 }
@@ -19,12 +21,29 @@ body {
     text-align: center;
     justify-content: center;
 }
+.iconosbolas{
+    font-size: 30px;
+}
 #centrado{
     justify-content: center!important;
 }
 .cursor{
     cursor: pointer;
 }
+#tweter{
+    height: 200px!important;
+}
+#alturabarra{
+    height: 50px;
+}
+#carousel{
+    margin-top: 50px;
+}
+#menu1{
+    color: white!important;
+    font-size: 50px;
+}
+
 .anclaredes:active{
     color: white!important;
 }
@@ -197,6 +216,19 @@ footer p{
     }
 
 }
+/*=========================Surface Pro================================*/
+
+@media (max-width:912px){
+    .t912{
+        display: none!important;
+    }
+}
+
+
+
+
+
+
 /*=========================MEDIA QUERIES PANTALLA SMbotonresp================================*/
 
 
@@ -206,6 +238,9 @@ footer p{
         padding: 0!important;
         width:90% !important;
         margin:auto;
+    }
+    .t768{
+        display: none!important;
     }
     #servicios-fila-1{
         text-align: center;
@@ -277,4 +312,13 @@ footer p{
     .ocultocel{
         display: none;
     }
+}
+@media (max-width: 280px) {
+    #carousel{
+        width: 315px;
+    }
+    .barrabuscadora{
+        width: 315px;
+    }
+
 }

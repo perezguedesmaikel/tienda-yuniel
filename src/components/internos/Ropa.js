@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from "react";
 import {supabase} from '../../supabase/clientesupabase'
 import RecipeReviewCard from "./targetaVenta";
+
 function Ropa() {
     const [docus,setDocus]=useState([]);
     useEffect(()=>{

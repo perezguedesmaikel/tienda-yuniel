@@ -20,7 +20,7 @@ function Copyright(props) {
     return (
         <Typography variant="body2" color="text.secondary" align="center" {...props}>
             {'Copyright © '}
-            <Link color="inherit" href="https://mui.com/">
+            <Link color="inherit" href="#">
                 M@ikelPro
             </Link>{' '}
             {new Date().getFullYear()}
@@ -32,28 +32,8 @@ function Copyright(props) {
 const theme = createTheme();
 
 export default function Suscribirse() {
-    const [posts,setPosts]=useState([]);
-    const [post,setPost]=useState({nombre:'',nombreArchivo:'',url:'',descripcion:''});
-    const {nombre,nombreArchivo,url,descripcion}=post;
-    async function fetchPosts() {
-        const {data}=await supabase
-            .from('post')
-            .select()
-        setPosts(data);
-        console.log('data:',data);
-    }
-    useEffect(()=>{
-        fetchPosts().then(r => console.log('data desde el then:',posts) );
-    },[]);
-    //para arriba la conexión a supabase
-    const handleSubmit = (event) => {
-        event.preventDefault();
-        const data = new FormData(event.currentTarget);
-        console.log({
-            email: data.get('email'),
-            password: data.get('password'),
-        });
-    };
+
+
 
     return (
         <div className='container'>
@@ -74,7 +54,7 @@ export default function Suscribirse() {
                     <Typography component="h1" variant="h5">
                         Sign up
                     </Typography>
-                    <Box component="form" noValidate onSubmit={handleSubmit} sx={{ mt: 3 }}>
+                    <Box component="form" noValidate  sx={{ mt: 3 }}>
                         <Grid container spacing={2}>
                             <Grid item xs={12} sm={6}>
                                 <TextField

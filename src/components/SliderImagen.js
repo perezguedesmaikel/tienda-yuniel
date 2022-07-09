@@ -1,10 +1,11 @@
-import React from "react";
+import React, {Fragment} from "react";
 import image1 from "../images/slider3.jpg";
 import image2 from "../images/slider2.jpg";
 import image3 from "../images/slide1.jpg";
 function SliderImagen() {
     return(
         <div id="carousel" className="carousel slide" data-bs-ride="carousel">
+
             <div className="carousel-inner">
                 <div className="carousel-item active " data-bs-interval="3000">
                     <img src={image1} className="d-block w-100 aualto" alt=""/>
