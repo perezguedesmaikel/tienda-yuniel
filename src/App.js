@@ -93,8 +93,10 @@ function App() {
     <div className=' t280'>
         <SliderImagen/>
         <Encabezado/>
+        <div className='container d-flex justify-content-center text-center'>
             <H1principal/>
 
+        </div>
         {/*Area Cambiable==========================================================================================*/}
            <Routes>
             <Route path="/inicio" element={<AcercaNosotros/>}/>
@@ -120,11 +122,10 @@ function App() {
 
                     <Styledo color="secondary" aria-label="add">
                         <Link to={'/inicio'} className={'anclaredes'}>
-                            <IconButton aria-label="cart" >
                                 <StyledBadge badgeContent={4} color="primary">
                                     <ShoppingCartIcon className='text-light'/>
                                 </StyledBadge>
-                            </IconButton></Link>
+                            </Link>
                     </Styledo>
                     <Style2 color="secondary" aria-label="add">
                         <Link  to={'/ayuda'} className='anclaredes iconosbolas'><BiHelpCircle className='cursor'/></Link>

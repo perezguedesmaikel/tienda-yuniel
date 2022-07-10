@@ -1,7 +1,8 @@
 import React, {useEffect, useState} from "react";
 import {supabase} from '../../supabase/clientesupabase'
-import RecipeReviewCard from "./targetaVenta";
-
+import InteractiveCard from "../TargetaThunbnail";
+import DenseAppBar from "../BarraSeparadora";
+import {BiStoreAlt} from "react-icons/bi";
 function Ropa() {
     const [docus,setDocus]=useState([]);
     useEffect(()=>{
@@ -15,10 +16,54 @@ function Ropa() {
 
     },[]);
     return(
+        <div >
+            <div className='text-center'>
+                <BiStoreAlt className='cursor tiendaicono mt-2'/>
+                <h1>Tienda</h1>
+            <DenseAppBar/>
         <div className='d-flex flex-wrap container justify-content-center'>
-            {docus.map(item=> <RecipeReviewCard item={item} key={item.id}/>
-            )}
 
+            <InteractiveCard/>
+            <InteractiveCard/>
+            <InteractiveCard/>
+            <InteractiveCard/>
+            <InteractiveCard/>
+            <InteractiveCard/>
+            {/*docus.map(item=> <RecipeReviewCard item={item} key={item.id}/>
+            )*/}
+
+        </div>
+            </div>
+            <div>
+                <DenseAppBar/>
+                <div className='d-flex flex-wrap container justify-content-center'>
+
+                    <InteractiveCard/>
+                    <InteractiveCard/>
+                    <InteractiveCard/>
+                    <InteractiveCard/>
+                    <InteractiveCard/>
+                    <InteractiveCard/>
+                    {/*docus.map(item=> <RecipeReviewCard item={item} key={item.id}/>
+            )*/}
+
+                </div>
+            </div>
+            <div>
+                <DenseAppBar/>
+                <div className='d-flex flex-wrap container justify-content-center'>
+
+                    <InteractiveCard/>
+                    <InteractiveCard/>
+                    <InteractiveCard/>
+                    <InteractiveCard/>
+                    <InteractiveCard/>
+                    <InteractiveCard/>
+                    {/*docus.map(item=> <RecipeReviewCard item={item} key={item.id}/>
+            )*/}
+
+                </div>
+            </div>
         </div>
 
     )

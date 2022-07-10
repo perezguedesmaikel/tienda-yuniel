@@ -5,11 +5,15 @@ body {
     overflow-x: hidden;
 }
 /*===================mios==========================*/
-
+.tiendaicono{
+    font-size: 100px!important;
+}
 .verde{
     background-color: #3db36b;
 }
-
+.violeta23{
+    background-color: #7b1fa2!important;
+}
 .textoverde{
     color: #3db36b;;
 }
