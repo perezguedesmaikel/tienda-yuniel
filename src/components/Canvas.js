@@ -5,6 +5,7 @@ import Divider from "@mui/material/Divider";
 import List from "@mui/material/List";
 import { BiArrowFromTop } from "react-icons/bi";
 import { BiDoorOpen } from "react-icons/bi";
+import { AiOutlineClose} from "react-icons/ai";
 const style = {
     width: '100%',
     maxWidth: 360,
@@ -25,6 +26,11 @@ function Canvas() {
                         <ListItem button divider>
                             <ListItemText primary=""  />
                         </ListItem>
+                        <div className='d-flex justify-content-end'>
+                            <AiOutlineClose id='cerrarCanvas' data-bs-toggle="offcanvas"
+                                               data-bs-target="#offcanvasExample"
+                                               aria-controls="offcanvasExample"/>
+                        </div>
                         <ListItem button><h3>Navegue por la categoría que desee <BiArrowFromTop  /></h3>
                             <ListItemText primary="" />
                         </ListItem>

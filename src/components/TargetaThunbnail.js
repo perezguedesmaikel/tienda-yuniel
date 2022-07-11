@@ -6,23 +6,29 @@ import Card from '@mui/joy/Card';
 import Chip from '@mui/joy/Chip';
 import Typography from '@mui/joy/Typography';
 import  "../css/TargetaThunbnail.css";
+import cartera from '../images/carteranegra.webp';
+import DenseAppBar from "./BarraSeparadora";
+import CardGrande from "./cardGrande";
 
 
 export default function InteractiveCard() {
     return (
-        <Card className='m-1 shadow p-3 mb-5 bg-body rounded border-primary'
+        <div>
+            <CardGrande/>
+        <Card className='m-1 shadow p-3 mb-5 bg-body rounded border-primary' id='targetaThumnail' data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom"
             variant="outlined"
             row
             sx={{
-                minWidth: '320px',
+                minWidth: '280px',
                 gap: 2,
                 '&:hover': { boxShadow: 'md', borderColor: 'neutral.outlinedHoverBorder' },
             }}
         >
             <AspectRatio ratio="1" sx={{ width: 90 }}>
                 <img
-                    src="https://images.unsplash.com/photo-1507833423370-a126b89d394b?crop=entropy&auto=format&fit=crop&w=3387"
-                    alt=""
+                    src={cartera}
+                    alt="Ropa"
                 />
 
             </AspectRatio>
@@ -53,5 +59,6 @@ export default function InteractiveCard() {
                 </Box>
             </Box>
         </Card>
+        </div>
     );
 }

@@ -22,7 +22,7 @@ function Ropa() {
                 <h1>Tienda</h1>
             <DenseAppBar/>
         <div className='d-flex flex-wrap container justify-content-center'>
-
+            <InteractiveCard/>
             <InteractiveCard/>
             <InteractiveCard/>
             <InteractiveCard/>
