@@ -11,7 +11,6 @@ import Ropa from "./components/internos/Ropa";
 import Suscribirse from "./components/internos/Suscribirse";
 import Choferes from "./components/internos/Choferes";
 import Informacion from "./components/internos/Informacion";
-import Ayuda from "./components/internos/Ayuda";
 import H1principal from "./components/H1Principal";
 import Login from "./components/Login";
 import { BiMenu } from "react-icons/bi";
@@ -101,7 +100,6 @@ function App() {
                {logueado?<Route path="/" element={<Ropa/>}/>: <Route path="/" element={<Login/>}/>}
                <Route path="/suscribirse" element={<Suscribirse/>}/>
                <Route path="/choferes" element={<Choferes/>}/>
-               <Route path="/informacion" element={<Informacion/>}/>
                <Route path="/ayuda" element={<AcercaNosotros/>}/>
                <Route path="/login" element={<Login/>}/>
                <Route path='*' element={<h1>Error página no encontrada, pusiste mal la dirección

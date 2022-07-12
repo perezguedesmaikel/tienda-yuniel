@@ -22,8 +22,9 @@ function AcercaNosotros() {
             </div>
             <h1> ¿Quienes somos? </h1>
             </div>
-            <InfoInicio/>
+
             <div className="container w-50 m-auto text-center" id="equipo">
+                <InfoInicio/>
                 <h1 className="mb-5 fs-2">Sesión donde puedes encargar <span className="text-success">el producto deseado
                 hasta tu propia puerta</span>.
                 </h1>

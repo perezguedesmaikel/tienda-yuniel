@@ -10,7 +10,8 @@ import MenuIcon from '@mui/icons-material/Menu';
 import SearchIcon from '@mui/icons-material/Search';
 import Button from '@mui/material/Button';
 import ButtonGroup from '@mui/material/ButtonGroup';
-import {BiBody, BiEdit, BiHelpCircle, BiStoreAlt} from "react-icons/bi";
+import { BiEdit, BiHelpCircle, BiStoreAlt} from "react-icons/bi";
+import { AiOutlineLock } from "react-icons/ai";
 import {useNavigate} from "react-router-dom";
 
 const Search = styled('div')(({ theme }) => ({
@@ -84,9 +85,9 @@ export default function BarraBuscadora() {
                     >
                         <ButtonGroup variant="contained" aria-label="outlined primary button group" color='secondary'>
                             <Button onClick={()=>navigate('/')}>Tienda<BiStoreAlt className='cursor iconosbolas'/></Button>
-                            <Button onClick={()=>navigate('/suscribirse')}>Subscribirse<BiEdit className='cursor iconosbolas'/></Button>
-                            <Button onClick={()=>navigate('/inicio')} className='t768'>Quienes somos?<BiBody  className='cursor iconosbolas' /> </Button>
-                            <Button onClick={()=>navigate('/ayuda')} className='t768 t912'>Ayuda <BiHelpCircle className='cursor iconosbolas'/></Button>
+                            <Button onClick={()=>navigate('/suscribirse')}>Subscribirse<AiOutlineLock className='cursor iconosbolas'/></Button>
+                            <Button onClick={()=>navigate('/carrito')} className='t768'>Carrito<AiOutlineLock className='cursor iconosbolas' /> </Button>
+                            <Button onClick={()=>navigate('/ayuda')} className='t768 t912'>¿Quienes Somos? <BiHelpCircle className='cursor iconosbolas'/></Button>
                         </ButtonGroup>
                     </Typography>
 
