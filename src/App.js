@@ -18,9 +18,8 @@ import H1principal from "./components/H1Principal";
 import Login from "./components/Login";
 import { BiMenu } from "react-icons/bi";
 import {BiStoreAlt } from "react-icons/bi";
-import {BiEdit } from "react-icons/bi";
+import { AiOutlineLock } from "react-icons/ai";
 import {BiHelpCircle } from "react-icons/bi";
-import IconButton from '@mui/material/IconButton';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
 //importaciones fuu nuevo
@@ -131,7 +130,7 @@ function App() {
                         <Link  to={'/ayuda'} className='anclaredes iconosbolas'><BiHelpCircle className='cursor'/></Link>
                     </Style2>
                     <Style3 color="secondary" aria-label="add">
-                        <Link to={'/suscribirse'}  className='anclaredes iconosbolas'><BiEdit className='cursor' /></Link>
+                        <Link to={'/suscribirse'}  className='anclaredes iconosbolas'><AiOutlineLock className='cursor' /></Link>
                     </Style3>
                     <Style4 color="secondary" aria-label="add">
                         <Link to={'/'}  className='anclaredes iconosbolas'><BiStoreAlt className='cursor iconosbolas'/></Link>

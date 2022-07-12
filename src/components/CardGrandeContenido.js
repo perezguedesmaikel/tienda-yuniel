@@ -38,8 +38,8 @@ export default function CardGrandeContenido() {
             <CardHeader
 
                 action={
-                    <IconButton aria-label="settings">
-                        <AiOutlineClose id='cerrarCanvas' data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom"/>
+                    <IconButton aria-label="settings" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">
+                        <AiOutlineClose id='cerrarCanvas' />
                     </IconButton>
 
                 }
