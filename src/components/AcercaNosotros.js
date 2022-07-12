@@ -1,8 +1,28 @@
 import React from "react";
 import equipoimg from "../images/colag.jpg";
+import Avatar from "@mui/material/Avatar";
+import {BiHelpCircle } from "react-icons/bi";
+import InfoInicio from "./InfoInicio";
+
+
+
+
+
+
+
+
 function AcercaNosotros() {
     return(
         <section>
+            <div className='text-center mb-5'>
+            <div className='d-flex justify-content-center'>
+                <Avatar sx={{ m: 1, bgcolor: 'secondary.main',height:100,width:100 }}>
+                    <BiHelpCircle className='cursor tiendaiconopro mt-2'/>
+                </Avatar>
+            </div>
+            <h1> ¿Quienes somos? </h1>
+            </div>
+            <InfoInicio/>
             <div className="container w-50 m-auto text-center" id="equipo">
                 <h1 className="mb-5 fs-2">Sesión donde puedes encargar <span className="text-success">el producto deseado
                 hasta tu propia puerta</span>.
@@ -20,7 +40,7 @@ function AcercaNosotros() {
 
                 </div>
                 <div>
-                    <div className="wrapper-local">
+                    <div className="wrapper-local text-center">
                         <h2>Geo-localización</h2>
                         <h2 className="text-primary mb-4" id="typewriter">
 

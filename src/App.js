@@ -1,14 +1,12 @@
 import React,{Fragment,useState} from "react";
 import './App.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-import ExplicacionesUsuario from "./components/ExplicacionesUsuario";
 import AcercaNosotros from "./components/AcercaNosotros";
 import Footer from "./components/Footer";
 import SliderImagen from "./components/SliderImagen";
 import Encabezado from "./components/Encabezado";
 import { Routes,
     Route,Link } from "react-router-dom";
-import VariosComponentes from "./components/VariosComponentes";
 import Ropa from "./components/internos/Ropa";
 import Suscribirse from "./components/internos/Suscribirse";
 import Choferes from "./components/internos/Choferes";
@@ -31,6 +29,7 @@ import Fab from '@mui/material/Fab';
 import {AiFillFacebook, AiFillTwitterCircle} from "react-icons/ai";
 import Canvas from "./components/Canvas";
 import Badge from "@mui/material/Badge";
+import Carrito from "./components/carrito";
 //importaciones fuu nuevo
 //const nuevas que s enecesitan foo nuevo luego se borran
 const StyledFab = styled(Fab)({
@@ -98,12 +97,12 @@ function App() {
         </div>
         {/*Area Cambiable==========================================================================================*/}
            <Routes>
-            <Route path="/inicio" element={<AcercaNosotros/>}/>
+            <Route path="/carrito" element={<Carrito/>}/>
                {logueado?<Route path="/" element={<Ropa/>}/>: <Route path="/" element={<Login/>}/>}
                <Route path="/suscribirse" element={<Suscribirse/>}/>
                <Route path="/choferes" element={<Choferes/>}/>
                <Route path="/informacion" element={<Informacion/>}/>
-               <Route path="/ayuda" element={<Ayuda/>}/>
+               <Route path="/ayuda" element={<AcercaNosotros/>}/>
                <Route path="/login" element={<Login/>}/>
                <Route path='*' element={<h1>Error página no encontrada, pusiste mal la dirección
                    o no te has logueado aún</h1>}/>
@@ -120,7 +119,7 @@ function App() {
                     </StyledFab>
 
                     <Styledo color="secondary" aria-label="add">
-                        <Link to={'/inicio'} className={'anclaredes'}>
+                        <Link to={'/carrito'} className={'anclaredes'}>
                                 <StyledBadge badgeContent={4} color="primary">
                                     <ShoppingCartIcon className='text-light'/>
                                 </StyledBadge>

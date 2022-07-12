@@ -14,6 +14,7 @@ import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import {useState,useEffect} from 'react';
 import {supabase} from "../../supabase/clientesupabase";
+import {BiStoreAlt} from "react-icons/bi";
 
 function Copyright(props) {
 
@@ -48,12 +49,12 @@ export default function Suscribirse() {
                         alignItems: 'center',
                     }}
                 >
-                    <Avatar sx={{ m: 1, bgcolor: 'secondary.main' }}>
-                        <LockOutlinedIcon />
-                    </Avatar>
-                    <Typography component="h1" variant="h5">
-                        Registrate
-                    </Typography>
+                    <div className='d-flex justify-content-center'>
+                        <Avatar sx={{ m: 1, bgcolor: 'secondary.main',height:100,width:100 }}>
+                            <LockOutlinedIcon className='cursor tiendaiconopro mt-2'/>
+                        </Avatar>
+                    </div>
+                    <h1> Registrate </h1>
                     <Box component="form" noValidate  sx={{ mt: 3 }}>
                         <Grid container spacing={2}>
                             <Grid item xs={12} sm={6}>
