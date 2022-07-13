@@ -4,6 +4,7 @@ import { AiFillFacebook } from "react-icons/ai";
 import {FaTelegramPlane} from "react-icons/fa";
 import {FaWhatsappSquare} from "react-icons/fa";
 import {BsPhoneVibrate} from "react-icons/bs";
+import { DiAptana} from "react-icons/di";
 
 
 function Footer() {
@@ -15,7 +16,7 @@ function Footer() {
             </path></svg>
         </div>
     <footer className="w-100    align-items-center justify-content-center  footerverde">
-        <div className='d-flex justify-content-center text-light fs-1 ' > <a href="https://t.me/yuniel123" className={'anclaredes'}><AiFillTwitterCircle className='cursor'/></a>
+        <div className='d-flex justify-content-center text-light fs-1 ' > <a href="https://mabriss-panel.firebaseapp.com/" target='_blank' className={'anclaredes'}><DiAptana className='cursor'/></a>
          <a href="https://t.me/yuniel123" className={'anclaredes'}>
              <AiFillFacebook className='cursor'/></a>
             <a href="tel:+5358335533" className={'anclaredes'}><BsPhoneVibrate className='cursor'/></a>

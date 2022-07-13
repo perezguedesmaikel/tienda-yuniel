@@ -4,13 +4,6 @@ import Avatar from "@mui/material/Avatar";
 import {BiHelpCircle } from "react-icons/bi";
 import InfoInicio from "./InfoInicio";
 
-
-
-
-
-
-
-
 function AcercaNosotros() {
     return(
         <section>
