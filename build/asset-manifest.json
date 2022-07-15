@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d41bc299.css",
+    "main.js": "/static/js/main.0d103bba.js",
+    "static/js/255.53f838d8.chunk.js": "/static/js/255.53f838d8.chunk.js",
+    "static/media/mapacopia.png": "/static/media/mapacopia.642cf69c15a4838a01f8.png",
+    "static/media/carteranegra.webp": "/static/media/carteranegra.3458a40fc6885e6562a4.webp",
+    "static/media/colag.jpg": "/static/media/colag.234e208020bed8a81c17.jpg",
+    "static/media/slidenuevo1_New1.jpg": "/static/media/slidenuevo1_New1.f4b1a9bf068355254d9c.jpg",
+    "static/media/colag222.jpg": "/static/media/colag222.a0e8969df37f313849a7.jpg",
+    "static/media/colagtrajedebaño_New1.jpg": "/static/media/colagtrajedebaño_New1.862d8f16e3025a0c46cf.jpg",
+    "index.html": "/index.html",
+    "main.d41bc299.css.map": "/static/css/main.d41bc299.css.map",
+    "main.0d103bba.js.map": "/static/js/main.0d103bba.js.map",
+    "255.53f838d8.chunk.js.map": "/static/js/255.53f838d8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d41bc299.css",
+    "static/js/main.0d103bba.js"
+  ]
+}
