@@ -96,13 +96,13 @@ function App() {
         </div>
         {/*Area Cambiable==========================================================================================*/}
            <Routes>
-            <Route basename={process.env.PUBLIC_URL} path="/carrito" element={<Carrito/>}/>
-               {logueado?<Route basename={process.env.PUBLIC_URL} path="/" element={<Ropa/>}/>: <Route path="/" element={<Login/>}/>}
-               <Route basename={process.env.PUBLIC_URL} path="/suscribirse" element={<Suscribirse/>}/>
-               <Route  basename={process.env.PUBLIC_URL} path="/choferes" element={<Choferes/>}/>
-               <Route basename={process.env.PUBLIC_URL} path="/ayuda" element={<AcercaNosotros/>}/>
-               <Route basename={process.env.PUBLIC_URL} path="/login" element={<Login/>}/>
-               <Route basename={process.env.PUBLIC_URL} path='*' element={<h1>Error página no encontrada, pusiste mal la dirección
+            <Route  path="/carrito" element={<Carrito/>}/>
+               {logueado?<Route  path="/" element={<Ropa/>}/>: <Route path="/" element={<Login/>}/>}
+               <Route  path="/suscribirse" element={<Suscribirse/>}/>
+               <Route  path="/choferes" element={<Choferes/>}/>
+               <Route  path="/ayuda" element={<AcercaNosotros/>}/>
+               <Route  path="/login" element={<Login/>}/>
+               <Route  path='*' element={<h1>Error página no encontrada, pusiste mal la dirección
                    o no te has logueado aún</h1>}/>
            </Routes>
         {/*Area Cambiable==========================================================================================*/}
