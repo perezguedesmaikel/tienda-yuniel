@@ -84,7 +84,6 @@ const StyledBadge = styled(Badge)(({ theme }) => ({
 }));
 //const nuevas que s enecesitan foo nuevo luego se borran
 function App() {
-    const [logueado,setLogueado]=useState(true);
   return (
 
     <div className=' t280'>
@@ -97,7 +96,7 @@ function App() {
         {/*Area Cambiable==========================================================================================*/}
            <Routes>
             <Route  path="/carrito" element={<Carrito/>}/>
-               {logueado?<Route  path="/" element={<Ropa/>}/>: <Route path="/" element={<Login/>}/>}
+               <Route  path="/" element={<Ropa/>}/>
                <Route  path="/suscribirse" element={<Suscribirse/>}/>
                <Route  path="/choferes" element={<Choferes/>}/>
                <Route  path="/ayuda" element={<AcercaNosotros/>}/>

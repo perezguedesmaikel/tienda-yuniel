@@ -1,0 +1,21 @@
+[debug] [2022-07-15T20:58:17.163Z] ----------------------------------------------------------------------
+[debug] [2022-07-15T20:58:17.165Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Maikel\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-07-15T20:58:17.165Z] CLI Version:   11.2.2
+[debug] [2022-07-15T20:58:17.166Z] Platform:      win32
+[debug] [2022-07-15T20:58:17.166Z] Node Version:  v16.15.0
+[debug] [2022-07-15T20:58:17.167Z] Time:          Fri Jul 15 2022 16:58:17 GMT-0400 (hora de verano oriental)
+[debug] [2022-07-15T20:58:17.167Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-07-15T20:58:17.238Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-07-15T20:58:17.239Z] > authorizing via signed-in user (perezdiasj153@gmail.com)
+[debug] [2022-07-15T20:58:17.239Z] [iam] checking project mabriss-web for permissions ["datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get","firebasehosting.sites.update","firebaserules.releases.create","firebaserules.releases.update","firebaserules.rulesets.create"]
+[debug] [2022-07-15T20:58:17.242Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/mabriss-web:testIamPermissions [none]
+[debug] [2022-07-15T20:58:17.242Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/mabriss-web:testIamPermissions {"permissions":["datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get","firebasehosting.sites.update","firebaserules.releases.create","firebaserules.releases.update","firebaserules.rulesets.create"]}
+[debug] [2022-07-15T20:58:17.296Z] [iam] error while checking permissions, command may fail: FirebaseError: Failed to make request to https://cloudresourcemanager.googleapis.com/v1/projects/mabriss-web:testIamPermissions
+[debug] [2022-07-15T20:58:17.298Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/mabriss-web [none]
+[debug] [2022-07-15T20:58:17.312Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects/mabriss-web
+[debug] [2022-07-15T20:58:17.313Z] FirebaseError: Failed to make request to https://firebase.googleapis.com/v1beta1/projects/mabriss-web
+    at RetryOperation._fn (C:\Users\Maikel\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:241:31)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to get Firebase project mabriss-web. Please make sure the project exists and your account has permission to access it.
