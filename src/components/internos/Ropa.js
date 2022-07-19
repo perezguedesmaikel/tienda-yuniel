@@ -26,7 +26,7 @@ function Ropa() {
                     <BiStoreAlt className='cursor tiendaiconopro mt-2'/>
                 </Avatar>
                 </div>
-                <h1>Tienda</h1>
+                <h1>Tienda!!!</h1>
             <DenseAppBar/>
 
         <div className='d-flex flex-wrap container justify-content-center'>
