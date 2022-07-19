@@ -95,12 +95,12 @@ function App() {
         </div>
         {/*Area Cambiable==========================================================================================*/}
            <Routes>
-            <Route  path="/carrito" element={<Carrito/>}/>
-               <Route  path="/" element={<Ropa/>}/>
-               <Route  path="/suscribirse" element={<Suscribirse/>}/>
-               <Route  path="/choferes" element={<Choferes/>}/>
-               <Route  path="/ayuda" element={<AcercaNosotros/>}/>
-               <Route  path="/login" element={<Login/>}/>
+            <Route  path="/carrito" element={<Carrito/>} basename={process.env.PUBLIC_URL}/>
+               <Route  path="/suscribirse" element={<Suscribirse/>} basename={process.env.PUBLIC_URL}/>
+               <Route  path="/choferes" element={<Choferes/>} basename={process.env.PUBLIC_URL}/>
+               <Route  path="/ayuda" element={<AcercaNosotros/>} basename={process.env.PUBLIC_URL}/>
+               <Route  path="/login" element={<Login/>} basename={process.env.PUBLIC_URL}/>
+               <Route  path="/" element={<Ropa/>} basename={process.env.PUBLIC_URL} index/>
                <Route  path='*' element={<h1>Error página no encontrada, pusiste mal la dirección
                    o no te has logueado aún</h1>}/>
            </Routes>

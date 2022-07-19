@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tienda-yuniel/static/css/main.0225fbed.css",
-    "main.js": "/tienda-yuniel/static/js/main.5cc13c6a.js",
+    "main.js": "/tienda-yuniel/static/js/main.c5b9b6d6.js",
     "static/js/255.53f838d8.chunk.js": "/tienda-yuniel/static/js/255.53f838d8.chunk.js",
     "static/media/mapacopia.png": "/tienda-yuniel/static/media/mapacopia.642cf69c15a4838a01f8.png",
     "static/media/carteranegra.webp": "/tienda-yuniel/static/media/carteranegra.3458a40fc6885e6562a4.webp",
@@ -11,11 +11,11 @@
     "static/media/colagtrajedebaño_New1.jpg": "/tienda-yuniel/static/media/colagtrajedebaño_New1.862d8f16e3025a0c46cf.jpg",
     "index.html": "/tienda-yuniel/index.html",
     "main.0225fbed.css.map": "/tienda-yuniel/static/css/main.0225fbed.css.map",
-    "main.5cc13c6a.js.map": "/tienda-yuniel/static/js/main.5cc13c6a.js.map",
+    "main.c5b9b6d6.js.map": "/tienda-yuniel/static/js/main.c5b9b6d6.js.map",
     "255.53f838d8.chunk.js.map": "/tienda-yuniel/static/js/255.53f838d8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0225fbed.css",
-    "static/js/main.5cc13c6a.js"
+    "static/js/main.c5b9b6d6.js"
   ]
 }
