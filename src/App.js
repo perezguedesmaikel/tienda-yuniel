@@ -133,7 +133,7 @@ function App() {
                         <Link to={'/suscribirse'}  className='anclaredes iconosbolas'><AiOutlineLock className='cursor' /></Link>
                     </Style3>
                     <Style4 color="secondary" aria-label="add">
-                        <Link to={'/tienda-yuniel'}  className='anclaredes iconosbolas'><BiStoreAlt className='cursor iconosbolas'/></Link>
+                        <Link to={'/'}  className='anclaredes iconosbolas'><BiStoreAlt className='cursor iconosbolas'/></Link>
                     </Style4>
                 </Toolbar>
             </AppBar>

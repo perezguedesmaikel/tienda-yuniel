@@ -20,7 +20,7 @@ import './dataview/dataviewDemo.css';
     ];
 
     const productService = new ProductService();
-
+   //voy a empezar a desbaratar
     useEffect(() => {
         productService.getProducts().then(data => setProducts(data));
     }, []); // eslint-disable-line react-hooks/exhaustive-deps
@@ -79,8 +79,8 @@ import './dataview/dataviewDemo.css';
                         <Rating value={data.rating} readOnly cancel={false}> </Rating>
                     </div>
                     <div className="product-grid-item-bottom">
-                        <span className="product-price">${data.price}</span>
-                        <Button icon="pi pi-shopping-cart" className='mx-1' label="Add to Cart" disabled={data.inventoryStatus === 'OUTOFSTOCK'}> </Button>
+                        <span className="product-price m-1">${data.price}</span>
+                        <Button icon="pi pi-shopping-cart" className='m-1' label="Add to Cart" disabled={data.inventoryStatus === 'OUTOFSTOCK'}> </Button>
                     </div>
                 </div>
             </div>
