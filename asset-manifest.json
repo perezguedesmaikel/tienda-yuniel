@@ -1,21 +1,25 @@
 {
   "files": {
-    "main.css": "/tienda-yuniel/static/css/main.0225fbed.css",
-    "main.js": "/tienda-yuniel/static/js/main.98d1b03f.js",
+    "main.css": "/tienda-yuniel/static/css/main.587c5535.css",
+    "main.js": "/tienda-yuniel/static/js/main.856dcc6c.js",
     "static/js/255.53f838d8.chunk.js": "/tienda-yuniel/static/js/255.53f838d8.chunk.js",
     "static/media/mapacopia.png": "/tienda-yuniel/static/media/mapacopia.642cf69c15a4838a01f8.png",
+    "static/media/primeicons.svg": "/tienda-yuniel/static/media/primeicons.c6e2053303524e39530c.svg",
     "static/media/carteranegra.webp": "/tienda-yuniel/static/media/carteranegra.3458a40fc6885e6562a4.webp",
     "static/media/colag.jpg": "/tienda-yuniel/static/media/colag.234e208020bed8a81c17.jpg",
+    "static/media/primeicons.eot": "/tienda-yuniel/static/media/primeicons.7fc4d8e224d1ff1b9c62.eot",
+    "static/media/primeicons.woff": "/tienda-yuniel/static/media/primeicons.449aa8c65cdc5c2a8686.woff",
+    "static/media/primeicons.ttf": "/tienda-yuniel/static/media/primeicons.91bacab1f083f2795272.ttf",
     "static/media/slidenuevo1_New1.jpg": "/tienda-yuniel/static/media/slidenuevo1_New1.f4b1a9bf068355254d9c.jpg",
     "static/media/colag222.jpg": "/tienda-yuniel/static/media/colag222.a0e8969df37f313849a7.jpg",
     "static/media/colagtrajedebaño_New1.jpg": "/tienda-yuniel/static/media/colagtrajedebaño_New1.862d8f16e3025a0c46cf.jpg",
     "index.html": "/tienda-yuniel/index.html",
-    "main.0225fbed.css.map": "/tienda-yuniel/static/css/main.0225fbed.css.map",
-    "main.98d1b03f.js.map": "/tienda-yuniel/static/js/main.98d1b03f.js.map",
+    "main.587c5535.css.map": "/tienda-yuniel/static/css/main.587c5535.css.map",
+    "main.856dcc6c.js.map": "/tienda-yuniel/static/js/main.856dcc6c.js.map",
     "255.53f838d8.chunk.js.map": "/tienda-yuniel/static/js/255.53f838d8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0225fbed.css",
-    "static/js/main.98d1b03f.js"
+    "static/css/main.587c5535.css",
+    "static/js/main.856dcc6c.js"
   ]
 }
