@@ -5,6 +5,7 @@ body {
     overflow-x: hidden;
 }
 /*===================mios==========================*/
+
 #cerrarCanvas{
    font-size: 20px;
 }
@@ -286,11 +287,20 @@ footer p{
 
 }
 /*=========================MEDIA QUERIES PANTALLA EXTRA-SM================================*/
+#tiendaTransformer{
+    height: 200px!important;
+    width: 400px!important;
+}
+@media (max-width: 1500px) {
+
+}
+
 
 @media (max-width: 576px) {
     .aualto{
         height: 200px;
     }
+
     #centrado{
         display: flex;
         flex-direction: column;
@@ -327,6 +337,18 @@ footer p{
     }
 }
 @media (max-width: 280px) {
+    #tienda{
+
+        width: 280px!important;
+
+    }
+    #tienda42423{
+        margin-left: 20px!important;
+    }
+    #principallbody{
+        width: 280px!important;
+        margin-left: 20px!important;
+    }
     #carousel{
         width: 315px;
     }

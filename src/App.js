@@ -1,5 +1,8 @@
 import React,{Fragment,useState} from "react";
 import './App.css';
+import "primereact/resources/themes/lara-light-indigo/theme.css";  //theme
+import "primereact/resources/primereact.min.css";                  //core css
+import "primeicons/primeicons.css";                                //icons
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import AcercaNosotros from "./components/AcercaNosotros";
 import Footer from "./components/Footer";
@@ -89,7 +92,7 @@ function App() {
     <div className=' t280'>
         <SliderImagen/>
         <Encabezado/>
-        <div className='container d-flex justify-content-center text-center'>
+        <div className='container d-flex justify-content-center text-center' id='principallbody'>
             <H1principal/>
 
         </div>
