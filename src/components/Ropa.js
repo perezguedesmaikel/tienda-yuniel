@@ -1,11 +1,11 @@
 import React, {useEffect, useState} from "react";
-import {supabase} from '../../supabase/clientesupabase'
-import InteractiveCard from "../TargetaThunbnail";
-import DenseAppBar from "../BarraSeparadora";
+import {supabase} from '../supabase/clientesupabase'
+import InteractiveCard from "./TargetaThunbnail";
+import DenseAppBar from "./BarraSeparadora";
 import {BiStoreAlt} from "react-icons/bi";
 import Avatar from "@mui/material/Avatar";
-import DataViewDemo from '../dataView';
-import '../dataview/dataviewDemo.css';
+import DataViewDemo from './dataView';
+import './dataview/dataviewDemo.css';
 import LockOutlinedIcon from "@mui/icons-material/LockOutlined";
 import Box from "@mui/material/Box";
 function Ropa() {

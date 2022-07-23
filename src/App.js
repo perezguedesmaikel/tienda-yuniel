@@ -10,7 +10,7 @@ import SliderImagen from "./components/SliderImagen";
 import Encabezado from "./components/Encabezado";
 import { Routes,
     Route,Link } from "react-router-dom";
-import Ropa from "./components/internos/Ropa";
+import Ropa from "./components/Ropa";
 import Suscribirse from "./components/internos/Suscribirse";
 import Choferes from "./components/internos/Choferes";
 import Informacion from "./components/internos/Informacion";
@@ -133,7 +133,7 @@ function App() {
                         <Link to={'/suscribirse'}  className='anclaredes iconosbolas'><AiOutlineLock className='cursor' /></Link>
                     </Style3>
                     <Style4 color="secondary" aria-label="add">
-                        <Link to={'/'}  className='anclaredes iconosbolas'><BiStoreAlt className='cursor iconosbolas'/></Link>
+                        <Link to={'/tienda-yuniel'}  className='anclaredes iconosbolas'><BiStoreAlt className='cursor iconosbolas'/></Link>
                     </Style4>
                 </Toolbar>
             </AppBar>
