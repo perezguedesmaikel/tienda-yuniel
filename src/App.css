@@ -9,6 +9,9 @@ body {
 #cerrarCanvas{
    font-size: 20px;
 }
+#tienda23{
+    max-width: 500px!important;
+}
 #cuadroCierre{
     height: 20px!important;
 }

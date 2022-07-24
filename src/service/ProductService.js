@@ -1,4 +1,5 @@
 import axios from 'axios';
+import {supabase} from "../supabase/clientesupabase";
 
 export class ProductService {
 
@@ -6,7 +7,7 @@ export class ProductService {
         return axios.get('assets/demo/data/products-small.json').then(res => res.data.data);
     }
 
-    getProducts() {
+    async getProducts() {
         return axios.get('assets/demo/data/products.json').then(res => res.data.data);
     }
 

@@ -30,7 +30,7 @@ function Ropa() {
                 </div>
                 <h1>Tienda</h1>
 
-                    <DataViewDemo/>
+                    <DataViewDemo docus={docus}/>
 
                     {/*docus.map(item=> <RecipeReviewCard item={item} key={item.id}/>
             )*/}
